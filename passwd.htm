@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>passwordme</title>
+<meta name="Generator" content="Notepad">
+<script type="text/javascript">
+function randomString() {
+var chars = "23456789ABCDEFGHJKLMNPQRSTUVWXTZabcdefghkmnpqrstuvwxyz";
+var string_length = 9;
+var randomstring = '';
+for (var i=0; i<string_length; i++) {
+  var rnum = Math.floor(Math.random() * chars.length);
+  randomstring += chars.substring(rnum,rnum+1);
+}
+document.randform.randomfield.value = randomstring;
+
+var morechars = "23456789ABCDEFGHJKLMNPQRSTUVWXTZabcdefghkmnpqrstuvwxyz!@#$%^&*()_+-=<>,.?~";
+var string_length_longer = 13;
+var randomstringharder = '';
+for (var i=0; i<string_length_longer; i++) {
+  var rnum = Math.floor(Math.random() * morechars.length);
+  randomstringharder += morechars.substring(rnum,rnum+1);
+}
+document.randform.randomfieldharder.value = randomstringharder;
+}
+</script>
+</head>
+<style type="text/css">
+
+BODY 	{ font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 10pt; font-weight: normal; font-style: normal; }
+.label { font-size: 8pt; font-style: italic; text-align: left; vertical-align: bottom; padding-left: 5px;}
+</style>
+<body onLoad="javascript:randomString();">
+<form name="randform"><table>
+<tr><th>&nbsp;</th><th class="label"><abbr title="Excludes commonly confusable characters (1/l/0/O etc.)">Friendly:</abbr></th><th class="label"><abbr title="Includes all characters and special characters">Secure:</abbr></th></tr>
+<tr><td><input class="button" type="button" value="Password Me" onClick="randomString();"></td><td><input type="text" name="randomfield" value=""></td><td><input type="text" name="randomfieldharder" value=""></td></tr></table></form>
+</body>
+</html>
