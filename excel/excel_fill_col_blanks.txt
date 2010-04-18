@@ -1,0 +1,39 @@
+Sub FillColBlanks()
+'by Dave Peterson  2004-01-06
+'fill blank cells in column with value above
+'http://www.contextures.com/xlDataEntry02.html
+Dim wks As Worksheet
+Dim rng As Range
+Dim LastRow As Long
+Dim col As Long
+
+Set wks = ActiveSheet
+With wks
+   col = ActiveCell.Column
+   'or
+   'col = .range("b1").column
+
+   Set rng = .UsedRange  'try to reset the lastcell
+   LastRow = .Cells.SpecialCells(xlCellTypeLastCell).Row
+   Set rng = Nothing
+   On Error Resume Next
+   Set rng = .Range(.Cells(2, col), .Cells(LastRow, col)) _
+                  .Cells.SpecialCells(xlCellTypeBlanks)
+   On Error GoTo 0
+
+   If rng Is Nothing Then
+       MsgBox "No blanks found"
+       Exit Sub
+   Else
+       rng.FormulaR1C1 = "=R[-1]C"
+   End If
+
+   'replace formulas with values
+   With .Cells(1, col).EntireColumn
+       .Value = .Value
+   End With
+
+End With
+
+End Sub
+
