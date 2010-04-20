@@ -1,0 +1,2 @@
+call Add_Sales_Printer_for_All_Users.bat
+call Set_Sales_Printer_As_Default.bat

@@ -1,0 +1,1 @@
+Rundll32 printui.dll,PrintUIEntry /y /n\\vfp-sbs\Sales4100

@@ -1,0 +1,1 @@
+Rundll32 printui.dll,PrintUIEntry /y /n\\D9M1X851\Liz4100
