@@ -1,3 +1,4 @@
+acetoneiso					install
 acpi-support					install
 acpid						install
 adduser						install
@@ -12,6 +13,8 @@ alsa-source					install
 alsa-tools-gui					install
 alsa-utils					install
 anacron						install
+antiword					install
+apache2						install
 apache2-mpm-prefork				install
 apache2-utils					install
 apache2.2-bin					install
@@ -25,6 +28,7 @@ apport-gtk					install
 apport-hooks-medibuntu				install
 apport-symptoms					install
 apt						install
+apt-file					install
 apt-transport-https				install
 apt-utils					install
 apt-xapian-index				install
@@ -36,6 +40,8 @@ aspell						install
 aspell-en					install
 at						install
 at-spi						install
+audacious					install
+audacious-plugins				install
 autokey-common					install
 autokey-gtk					install
 avahi-autoipd					install
@@ -51,6 +57,7 @@ base-passwd					install
 bash						install
 bash-completion					install
 bc						install
+bchunk						install
 bcmwl-modaliases				install
 bind9-host					install
 binfmt-support					install
@@ -87,7 +94,10 @@ ca-certificates					install
 ca-certificates-java				install
 cabextract					install
 capplets-data					install
+cdemu-client					install
+cdemu-daemon					install
 cdparanoia					install
+cdrdao						install
 checkbox					install
 checkbox-gtk					install
 checkinstall					install
@@ -122,8 +132,11 @@ cups-bsd					install
 cups-client					install
 cups-common					install
 cups-driver-gutenprint				install
+curl						install
 cvs						install
+daa2iso						install
 dash						install
+dbconfig-common					install
 dbus						install
 dbus-x11					install
 dc						install
@@ -133,11 +146,15 @@ debconf-i18n					install
 debconf-utils					install
 debhelper					install
 debianutils					install
+deborphan					install
+debtags						install
 defoma						install
+deskbar-applet					install
 desktop-file-utils				install
 desktopcouch					install
 dhcp3-client					install
 dhcp3-common					install
+dialog						install
 dictionaries-common				install
 diff						install
 diffutils					install
@@ -149,6 +166,9 @@ dnsmasq-base					install
 dnsutils					install
 doc-base					install
 docbook-xml					install
+dockbar						install
+dockbarx					install
+dockbarx-themes-extra				install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
@@ -186,8 +206,14 @@ evolution-exchange				install
 evolution-indicator				install
 evolution-plugins				install
 evolution-webcal				install
+exaile						install
+exaile-plugin-contextinfo			install
+exaile-plugin-moodbar				install
 example-content					install
+exiv2						install
 f-spot						install
+faac						install
+faad						install
 fakeroot					install
 fancontrol					install
 ffmpeg						install
@@ -204,6 +230,7 @@ firefox-3.5-branding				install
 firefox-3.5-gnome-support			install
 firefox-branding				install
 firefox-gnome-support				install
+firestarter					install
 fontconfig					install
 fontconfig-config				install
 foo2zjs						install
@@ -215,6 +242,7 @@ freepats					install
 friendly-recovery				install
 ftp						install
 fuse-utils					install
+fuseiso						install
 fusion-icon					install
 g++						install
 g++-4.3						install
@@ -228,6 +256,7 @@ gcc-4.3						install
 gcc-4.3-base					install
 gcc-4.4						install
 gcc-4.4-base					install
+gcdemu						install
 gconf-defaults-service				install
 gconf-editor					install
 gconf2						install
@@ -267,6 +296,7 @@ gitg						install
 gksu						install
 glchess						install
 glines						install
+gloobus-preview					install
 glunarclock					install
 gnect						install
 gnibbles					install
@@ -290,6 +320,8 @@ gnome-do					install
 gnome-do-docklets				install
 gnome-do-plugins				install
 gnome-doc-utils					install
+gnome-dockbar-applet				install
+gnome-dockbarx-applet				install
 gnome-dust-icon-theme				install
 gnome-games					install
 gnome-games-common				install
@@ -333,6 +365,7 @@ gnome-user-share				install
 gnome-utils					install
 gnome-wine-icon-theme				install
 gnome-wise-icon-theme				install
+gnomebaker					install
 gnomine						install
 gnote						install
 gnotravex					install
@@ -340,7 +373,9 @@ gnotski						install
 gnupg						install
 gnupg-agent					install
 gnupg-curl					install
+gnupg2						install
 googleearth-package				install
+gpac						install
 gparted						install
 gpgv						install
 grep						install
@@ -381,6 +416,7 @@ gzip						install
 hal						install
 hal-info					install
 hamster-applet					install
+hd-widescreen-wallpapers			install
 hdparm						install
 hicolor-icon-theme				install
 hostname					install
@@ -398,6 +434,7 @@ ibus						install
 ibus-gtk					install
 ibus-m17n					install
 ibus-table					install
+icedax						install
 icedtea-6-jre-cacao				install
 icedtea6-plugin					install
 ifupdown					install
@@ -451,7 +488,6 @@ lib32asound2					install
 lib32bz2-1.0					install
 lib32gcc1					install
 lib32ncurses5					install
-lib32nss-mdns					install
 lib32stdc++6					install
 lib32v4l-0					install
 lib32z1						install
@@ -463,6 +499,7 @@ libaccess-bridge-java-jni			install
 libacl1						install
 libanthy0					install
 libao2						install
+libapache2-mod-auth-mysql			install
 libapache2-mod-php5				install
 libapparmor-perl				install
 libapparmor1					install
@@ -471,6 +508,7 @@ libapr1						install
 libaprutil1					install
 libaprutil1-dbd-sqlite3				install
 libaprutil1-ldap				install
+libapt-pkg-perl					install
 libarchive1					install
 libart-2.0-2					install
 libart2.0-cil					install
@@ -488,6 +526,7 @@ libatspi1.0-0					install
 libattr1					install
 libaudclient2					install
 libaudcore1					install
+libaudid3tag2					install
 libaudio-dev					install
 libaudio2					install
 libaudiofile-dev				install
@@ -511,6 +550,7 @@ libavutil-extra-49				install
 libbabl-0.0-0					install
 libbeagle1					install
 libbind9-60					install
+libbinio1ldbl					install
 libblas3gf					install
 libblkid1					install
 libbluetooth3					install
@@ -518,9 +558,9 @@ libbonobo2-0					install
 libbonobo2-common				install
 libbonoboui2-0					install
 libbonoboui2-common				install
-libboo2.0-cil					install
 libboo2.0.9-cil					install
 libboost-filesystem1.40.0			install
+libboost-python1.40.0				install
 libboost-regex1.40.0				install
 libboost-system1.40.0				install
 libbrasero-media0				install
@@ -546,6 +586,7 @@ libcanberra0					install
 libcap-ng0					install
 libcap2						install
 libcdaudio1					install
+libcddb2					install
 libcdio-cdda0					install
 libcdio-paranoia0				install
 libcdio10					install
@@ -560,9 +601,11 @@ libcolamd2.7.1					install
 libcomerr2					install
 libcompizconfig0				install
 libcompress-bzip2-perl				install
+libconfig-file-perl				install
 libcouchdb-glib-1.0-2				install
 libcroco3					install
 libcryptui0					install
+libcue1						install
 libcups2					install
 libcupscgi1					install
 libcupsdriver1					install
@@ -576,6 +619,8 @@ libdaemon0					install
 libdatrie1					install
 libdb4.7					install
 libdb4.8					install
+libdbd-mysql-perl				install
+libdbi-perl					install
 libdbus-1-3					install
 libdbus-1-dev					install
 libdbus-c++-1-0					install
@@ -606,6 +651,7 @@ libdrm-radeon1					install
 libdrm2						install
 libdts-dev					install
 libdv4						install
+libdvdcss2					install
 libdvdnav4					install
 libdvdread4					install
 libebackend1.2-0				install
@@ -634,6 +680,7 @@ libevview2					install
 libexchange-storage1.2-3			install
 libexempi3					install
 libexif12					install
+libexiv2-6					install
 libexpat1					install
 libexpat1-dev					install
 libfaac0					install
@@ -650,11 +697,14 @@ libflac8					install
 libflickrnet2.2-cil				install
 libflite1					install
 libfltk1.1					install
+libfluidsynth1					install
 libfont-afm-perl				install
 libfontconfig1					install
 libfontconfig1-dev				install
 libfontenc1					install
 libfreebob0					install
+libfreerdp-plugins-standard			install
+libfreerdp0					install
 libfreetype6					install
 libfreetype6-dev				install
 libfreezethaw-perl				install
@@ -759,6 +809,7 @@ libgomp1					install
 libgoocanvas-common				install
 libgoocanvas3					install
 libgp11-0					install
+libgpac0.4.5					install
 libgpg-error0					install
 libgpgme11					install
 libgphoto2-2					install
@@ -813,6 +864,7 @@ libhpmud0					install
 libhtml-format-perl				install
 libhtml-parser-perl				install
 libhtml-tagset-perl				install
+libhtml-template-perl				install
 libhtml-tree-perl				install
 libhttp-server-simple-perl			install
 libhunspell-1.2-0				install
@@ -820,6 +872,7 @@ libibus1					install
 libical0					install
 libice-dev					install
 libice6						install
+libicns1					install
 libicu42					install
 libid3-3.8.3c2a					install
 libid3tag0					install
@@ -861,12 +914,15 @@ libklibc					install
 libkpathsea5					install
 libkrb5-3					install
 libkrb5support0					install
+libksba8					install
 liblapack3gf					install
+liblash2					install
 liblaunchpad-integration1			install
 liblaunchpad-integration1.0-cil			install
 liblcms1					install
 libldap-2.4-2					install
 liblircclient0					install
+liblist-moreutils-perl				install
 liblocale-gettext-perl				install
 liblockfile1					install
 libloudmouth1-0					install
@@ -888,11 +944,14 @@ libmagickwand2					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
 libmatroska0					install
+libmcrypt4					install
 libmcs1						install
 libmeanwhile1					install
 libmetacity-private0				install
 libmikmod2					install
 libmimic0					install
+libmirage2					install
+libmirage2-data					install
 libmjpegtools-1.9				install
 libmldbm-perl					install
 libmms0						install
@@ -933,6 +992,7 @@ libncursesw5					install
 libndesk-dbus-glib1.0-cil			install
 libndesk-dbus1.0-cil				install
 libneon27-gnutls				install
+libnet-daemon-perl				install
 libnet-dbus-perl				install
 libnet-libidn-perl				install
 libnet-ssleay-perl				install
@@ -999,11 +1059,13 @@ libpcre3					install
 libpcrecpp0					install
 libpcsclite1					install
 libperl5.10					install
+libphonon4					install
 libpisock9					install
 libpisync1					install
 libpixman-1-0					install
 libpixman-1-dev					install
 libplist1					install
+libplrpc-perl					install
 libplymouth2					install
 libpng12-0					install
 libpng12-dev					install
@@ -1036,10 +1098,13 @@ libpurple0					install
 libpython2.6					install
 libqt3-mt					install
 libqt4-dbus					install
+libqt4-designer					install
 libqt4-network					install
 libqt4-opengl					install
 libqt4-script					install
+libqt4-webkit					install
 libqt4-xml					install
+libqt4-xmlpatterns				install
 libqtcore4					install
 libqtgui4					install
 libquicktime1					install
@@ -1048,7 +1113,9 @@ librarian0					install
 librasqal2					install
 libraw1394-11					install
 librdf0						install
+libreadline5					install
 libreadline6					install
+libresid-builder0c2a				install
 librpc-xml-perl					install
 librpm0						install
 librpmbuild0					install
@@ -1080,6 +1147,7 @@ libsexy2					install
 libsgutils2-2					install
 libshout3					install
 libsidplay1					install
+libsidplay2					install
 libsigc++-2.0-0c2a				install
 libsilc-1.1-2					install
 libsilcclient-1.1-3				install
@@ -1125,12 +1193,15 @@ libsub-name-perl				install
 libsvga1					install
 libsvga1-dev					install
 libsvn1						install
+libswfdec-0.8-0					install
 libswscale0					install
 libsys-hostname-long-perl			install
 libsysfs-dev					install
 libsysfs2					install
+libt1-5						install
 libtag1-vanilla					install
 libtag1c2a					install
+libtagc0					install
 libtaglib2.0-cil				install
 libtalloc2					install
 libtasn1-3					install
@@ -1152,6 +1223,7 @@ libtiff4-dev					install
 libtiffxx0c2					install
 libtimedate-perl				install
 libtotem-plparser17				install
+libtracker-gtk0					install
 libtrackerclient0				install
 libts-0.0-0					install
 libtwolame0					install
@@ -1184,7 +1256,6 @@ libwavpack1					install
 libwbclient0					install
 libwebkit-1.0-2					install
 libwebkit-1.0-common				install
-libwebkit1.0-cil				install
 libwebkit1.1-cil				install
 libwildmidi0					install
 libwmf0.2-7					install
@@ -1196,9 +1267,12 @@ libwpd8c2a					install
 libwpg-0.1-1					install
 libwps-0.1-1					install
 libwrap0					install
+libwv-1.2-3					install
 libwww-mechanize-perl				install
 libwww-perl					install
+libwxbase2.6-0					install
 libwxbase2.8-0					install
+libwxgtk2.6-0					install
 libwxgtk2.8-0					install
 libx11-6					install
 libx11-data					install
@@ -1214,10 +1288,14 @@ libxaw7						install
 libxcb-atom1					install
 libxcb-aux0					install
 libxcb-event1					install
+libxcb-randr0					install
 libxcb-render-util0				install
 libxcb-render-util0-dev				install
 libxcb-render0					install
 libxcb-render0-dev				install
+libxcb-shape0					install
+libxcb-shm0					install
+libxcb-xv0					install
 libxcb1						install
 libxcb1-dev					install
 libxcomposite-dev				install
@@ -1237,6 +1315,11 @@ libxft-dev					install
 libxft2						install
 libxi-dev					install
 libxi6						install
+libxine1					install
+libxine1-bin					install
+libxine1-console				install
+libxine1-misc-plugins				install
+libxine1-x					install
 libxinerama-dev					install
 libxinerama1					install
 libxkbfile-dev					install
@@ -1278,6 +1361,7 @@ libxxf86misc1					install
 libxxf86vm-dev					install
 libxxf86vm1					install
 libzephyr4					install
+libzip1						install
 liferea						install
 liferea-data					install
 light-themes					install
@@ -1340,12 +1424,14 @@ module-init-tools				install
 mono-2.0-gac					install
 mono-gac					install
 mono-runtime					install
+moodbar						install
 mount						install
 mountall					install
 mountmanager					install
 mousetweaks					install
 mp3splt						install
 mp3splt-gtk					install
+mpd-gnome					install
 mplayer						install
 mplayer-nogui					install
 mplayer-skins					install
@@ -1354,8 +1440,17 @@ mtools						install
 mtr-tiny					install
 music-applet					install
 myspell-en-gb					install
+mysql-admin					install
+mysql-client-5.1				install
+mysql-client-core-5.1				install
 mysql-common					install
+mysql-gui-tools-common				install
+mysql-query-browser				install
+mysql-server					install
+mysql-server-5.1				install
+mysql-server-core-5.1				install
 nautilus					install
+nautilus-actions				install
 nautilus-bzr					install
 nautilus-data					install
 nautilus-gksu					install
@@ -1380,6 +1475,7 @@ network-manager-pptp-gnome			install
 nfoview						install
 notify-osd					install
 notify-osd-icons				install
+nrg2iso						install
 nspluginwrapper					install
 ntfs-3g						install
 ntfs-config					install
@@ -1388,9 +1484,6 @@ ntp						install
 ntpdate						install
 nvidia-173-modaliases				install
 nvidia-185-modaliases				install
-nvidia-190-modaliases				install
-nvidia-195-kernel-source			install
-nvidia-195-modaliases				install
 nvidia-96-modaliases				install
 nvidia-common					install
 nvidia-current					install
@@ -1400,6 +1493,7 @@ obex-data-server				install
 obexd-client					install
 odbcinst					install
 odbcinst1debian1				install
+odt2txt						install
 onboard						install
 openjdk-6-jre					install
 openjdk-6-jre-headless				install
@@ -1409,6 +1503,8 @@ openssh-client					install
 openssl						install
 os-prober					install
 p7zip-full					install
+p7zip-rar					install
+packagesearch					install
 padevchooser					install
 paman						install
 paprefs						install
@@ -1425,9 +1521,15 @@ perl						install
 perl-base					install
 perl-modules					install
 perlmagick					install
+phonon						install
+phonon-backend-xine				install
 php5						install
 php5-cli					install
 php5-common					install
+php5-gd						install
+php5-mcrypt					install
+php5-mysql					install
+phpmyadmin					install
 pidgin						install
 pidgin-data					install
 pidgin-dev					install
@@ -1442,6 +1544,7 @@ pidgin-plugin-pack				install
 pidgin-privacy-please				install
 pidgin-themes					install
 pinentry-gtk2					install
+pinentry-qt4					install
 pitivi						install
 pkg-config					install
 plymouth					install
@@ -1483,9 +1586,11 @@ python-apt					install
 python-aptdaemon				install
 python-aptdaemon-gtk				install
 python-avahi					install
+python-beagle					install
 python-brlapi					install
 python-bugbuddy					install
 python-cairo					install
+python-cddb					install
 python-central					install
 python-chardet					install
 python-cheetah					install
@@ -1501,8 +1606,6 @@ python-debian					install
 python-desktopcouch				install
 python-desktopcouch-records			install
 python-dev					install
-python-egenix-mxdatetime			install
-python-egenix-mxtools				install
 python-evince					install
 python-evolution				install
 python-farsight					install
@@ -1530,7 +1633,9 @@ python-gtop					install
 python-httplib2					install
 python-ibus					install
 python-imaging					install
-python-indicate					install
+python-kaa-base					install
+python-kaa-metadata				install
+python-keybinder				install
 python-launchpad-integration			install
 python-launchpadlib				install
 python-lazr.restfulclient			install
@@ -1541,6 +1646,9 @@ python-mako					install
 python-mediaprofiles				install
 python-metacity					install
 python-minimal					install
+python-mmkeys					install
+python-mpd					install
+python-mutagen					install
 python-nautilus					install
 python-newt					install
 python-notify					install
@@ -1556,7 +1664,7 @@ python-pkg-resources				install
 python-problem-report				install
 python-protobuf					install
 python-pyatspi					install
-python-pycurl					install
+python-pyexiv2					install
 python-pygame					install
 python-pygoocanvas				install
 python-pyinotify				install
@@ -1571,6 +1679,7 @@ python-sip					install
 python-smbc					install
 python-software-properties			install
 python-speechd					install
+python-sqlite					install
 python-support					install
 python-telepathy				install
 python-tk					install
@@ -1588,6 +1697,7 @@ python-vte					install
 python-wadllib					install
 python-webkit					install
 python-wnck					install
+python-wxgtk2.6					install
 python-wxgtk2.8					install
 python-wxversion				install
 python-xapian					install
@@ -1607,8 +1717,12 @@ rarian-compat					install
 rdesktop					install
 readline-common					install
 redland-utils					install
+redshift					install
 remmina						install
 remmina-gnome					install
+remmina-plugin-data				install
+remmina-plugin-rdp				install
+remmina-plugin-vnc				install
 retroshare					install
 rhythmbox					install
 rhythmbox-plugin-cdrecorder			install
@@ -1635,6 +1749,7 @@ screen						install
 screen-resolution-extra				install
 screensaver-default-images			install
 seahorse					install
+searchmonkey					install
 sed						install
 seed						install
 sensible-utils					install
@@ -1665,6 +1780,8 @@ sreadahead					install
 ssh-askpass-gnome				install
 ssl-cert					install
 strace						install
+streamripper					install
+streamtuner					install
 subversion					install
 sudo						install
 sun-java6-bin					install
@@ -1702,6 +1819,10 @@ todiscgui					install
 tomboy						install
 toshset						install
 tovid						install
+tovidgui					install
+tracker						install
+tracker-search-tool				install
+tracker-utils					install
 transcode					install
 transcode-doc					install
 transmission-common				install
@@ -1726,6 +1847,7 @@ ttf-vlgothic					install
 ttf-wqy-microhei				install
 ttf-wqy-zenhei					install
 twolame						install
+txt2tags					install
 tzdata						install
 tzdata-java					install
 ubufox						install
@@ -1748,10 +1870,13 @@ ucf						install
 udev						install
 udisks						install
 ufw						install
+uif2iso						install
 unattended-upgrades				install
 unionfs-fuse					install
 unixodbc					install
 unrar						install
+unrtf						install
+untex						install
 unzip						install
 update-inetd					install
 update-manager					install
@@ -1769,6 +1894,7 @@ util-linux					install
 uuid-runtime					install
 vbetool						install
 vcdimager					install
+vhba-dkms					install
 vim-common					install
 vim-tiny					install
 vinagre						install
@@ -1788,6 +1914,7 @@ wireless-tools					install
 wmctrl						install
 wodim						install
 wpasupplicant					install
+wv						install
 wwwconfig-common				install
 x-ttcidfont-conf				install
 x11-apps					install
@@ -1831,6 +1958,11 @@ xinit						install
 xinput						install
 xkb-data					install
 xml-core					install
+xmms2-core					install
+xmms2-plugin-asf				install
+xmms2-plugin-avcodec				install
+xmms2-plugin-mp4				install
+xmms2-plugin-wma				install
 xorg						install
 xorg-docs-core					install
 xsane						install
@@ -1887,6 +2019,9 @@ xtrans-dev					install
 xulrunner-1.9.2					install
 xz-utils					install
 yelp						install
+zeitgeist					install
+zeitgeist-core					install
+zeitgeist-datahub				install
 zenity						install
 zim						install
 zip						install

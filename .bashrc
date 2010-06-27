@@ -68,7 +68,7 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    alias ls='ls --color=auto -CF'
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
@@ -78,9 +78,12 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
+alias ll='ls -lhF'
+alias la='ls -AF'
+alias l='ls -CF'
+alias restartapache='/etc/init.d/apache2 restart'
+alias startapache='/etc/init.d/apache2 start'
+alias stopapache='/etc/init.d/apache2 stop'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -187,4 +190,5 @@ bash_prompt() {
 PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
+
 
